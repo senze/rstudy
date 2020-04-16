@@ -7,7 +7,7 @@ model = 'GMF'
 assert model in ['MLP', 'GMF', 'NeuMF-end', 'NeuMF-pre']
 
 # paths
-main_path = 'data/ml-1m'
+main_path = 'data/ml-1m/'
 
 train_rating = main_path + '{}.train.rating'.format(dataset)
 test_rating = main_path + '{}.test.rating'.format(dataset)
